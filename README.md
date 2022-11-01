@@ -1,2 +1,2 @@
 # portfolio
-(grebuks.github.io)[grebuks.github.io]
+Links uz saitu: [grebuks.github.io](grebuks.github.io)
