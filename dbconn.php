@@ -5,7 +5,7 @@ class dbconn
     private $DB_HOST = "localhost";
     private $DB_USER = "root";
     private $DB_PASS = "";
-    private $DB_NAME = "portfolio";
+    private $DB_NAME = "portfolio_grdp31";
 
 
     function __construct()

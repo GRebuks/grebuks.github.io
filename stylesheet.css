@@ -256,9 +256,10 @@ nav > ul > li > a:active {
 }
 
 .info-container > img {
-    height: 300px;
-    width: 30%;
+    height: 350px;
+    width: 20%;
     object-fit: cover;
+    object-position: 50% 35%;
 }
 
 .info-text {

@@ -53,7 +53,7 @@ include("header.php");
 
 
     <div class="info-container">
-        <img src="images/blocked.jpg" alt="portrait" />
+        <img src="images/blocked.png" alt="portrait" class="main-portrait"/>
         <div class="info-text">
             <h2>Par mani īsumā:</h2>
             <h3>Mani sauc Gundars Rēbuks, 18 gadi</h3>

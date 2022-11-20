@@ -1,6 +1,6 @@
 <?php include("header.php"); ?>
 <div class="about-container">
-    <img src="images/blocked.jpg" alt="portrait" />
+    <img src="images/blocked.png" alt="portrait" />
     <div class="about-text">
         <h1>Gundars Rēbuks</h1>
         <ul>
