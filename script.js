@@ -1,8 +1,8 @@
-if (document.URL.includes("index.php")) {
-    document.addEventListener("DOMContentLoaded", () => {
+if (document.URL.includes('index.php') || !document.URL.includes('.php')) {
+    document.addEventListener('DOMContentLoaded', () => {
         CycleImage();
         function CycleImage() {
-            let images = document.getElementsByClassName("welcome-message");
+            let images = document.getElementsByClassName('welcome-message');
             let i = 0;
             ShowImage(i)
             setInterval(function() {
@@ -15,11 +15,11 @@ if (document.URL.includes("index.php")) {
         }
 
         function ShowImage(n) {
-            let images = document.getElementsByClassName("welcome-message");
+            let images = document.getElementsByClassName('welcome-message');
             for (let i = 0; i < images.length; i++) {
-                images[i].style.display = "none";
+                images[i].style.display = 'none';
             }
-            images[n].style.display = "block";
+            images[n].style.display = 'block';
         }
     });
 };
