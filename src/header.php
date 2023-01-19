@@ -6,9 +6,9 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href='//fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="stylesheet.css">
-    <script src="script.js"></script>
-    <script src="formreply.js"></script>
+    <link rel="stylesheet" href="src/css/stylesheet.css">
+    <script src="src/js/script.js"></script>
+    <script src="src/js/formreply.js"></script>
     <title>Gundars Rēbuks - Portfolio</title>
 </head>
 <body>
@@ -23,9 +23,9 @@
 
     <nav>
         <ul class="navbar">
-                <li><a href="index.php">Titullapa</a></li>
-            <li><a href="about.php">Par mani</a></li>
-            <li><a href="join.php">Sazinies</a></li>
+                <li><a href="/">Titullapa</a></li>
+            <li><a href="/about">Par mani</a></li>
+            <li><a href="/contact">Sazinies</a></li>
         </ul>
     </nav>
 </header>

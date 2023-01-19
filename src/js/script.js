@@ -1,4 +1,4 @@
-if (document.URL.includes('index.php') || !document.URL.includes('.php')) {
+if (document.URL.includes('home')) {
     document.addEventListener('DOMContentLoaded', () => {
         CycleImage();
         function CycleImage() {

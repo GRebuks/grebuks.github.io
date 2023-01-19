@@ -1,4 +1,4 @@
-if (document.URL.includes("join.php")) {
+if (document.URL.includes("contact")) {
     document.addEventListener("DOMContentLoaded", () => {
         const REPLY_RADIO = document.getElementsByClassName("reply");
         const REPLY_FORM = document.getElementById("reply-form");

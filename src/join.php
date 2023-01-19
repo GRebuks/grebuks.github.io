@@ -5,7 +5,7 @@ include("header.php");
         <h1>Atstāj ziņojumu, sazinies ar mani!</h1>
         <p>Aizpildi šo īso anketu lai atstātu savu ziņu, kuru es <i>noteikti</i> izlasīšu!</p>
     </div>
-    <form method="post" action="result.php">
+    <form method="post" action="/result">
         <div class="form-container">
             <div class="form-question">
                 <p>Norādiet savu vārdu/nosaukumu:</p>
